@@ -1,8 +1,41 @@
 /*===== STYLE RESPONSIVE MOBILE  =====*/
+
+
+@media (max-width: 1770px) {
+    .home .home-icon {
+        display: none;
+    }
+    .home .max-width {
+        position: relative;
+        left: 10px;
+        display: flex;
+    }
+
+}
+
+@media (max-width: 1588px) { 
+    .home .home-icon {
+        display: none;
+    }
+
+    .home .max-width {
+        position: relative;
+        left: 10px;
+        display: flex;
+    }
+
+}
+
 @media (max-width: 1300px) {
-  .home .max-width {
+    .home .max-width {
     margin-left: 0px;
-  }
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    }
+    .home .home-icon {
+    display: none;
+}
 }
 
 @media (max-width: 1104px) {
@@ -16,6 +49,9 @@
 @media (max-width: 991px) {
     .max-width {
         padding: 0 50px;
+    }
+    .home .home-icon {
+        display: none;
     }
 }
 

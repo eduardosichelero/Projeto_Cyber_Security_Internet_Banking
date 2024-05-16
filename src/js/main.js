@@ -17,10 +17,10 @@ $(document).ready(function () {
   // typing animation
   var typed = new Typed('.typing', {
     strings: [
-      'Teste',
-      'Teste 1',
-      'Teste 2',
-      'Teste 3',
+      ' seu banco!',
+      ' seus dados!',
+      ' sua conta!',
+      ' sua vida!',
     ],
     typeSpeed: 100,
     backSpeed: 60,

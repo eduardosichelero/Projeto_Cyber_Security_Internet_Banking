@@ -80,7 +80,7 @@ html {
   color: var(--color-black);
   font-size: 35px;
   font-weight: 600;
-
+  text-decoration: none;
 }
 
 .nav-bar .logo a span {
@@ -105,6 +105,7 @@ html {
   font-weight: 500;
   margin-left: 25px;
   transition: color 0.3s ease;
+  text-decoration: none;
 }
 
 .nav-bar .menu li a:hover {
@@ -189,6 +190,23 @@ box-shadow: 12.5px 11.5px 12px -6px #dddddd;
   font-weight: 500;
 }
 
+/* ============= ABOUT SECTION ============= */
+
+.about {
+  padding-top: 20px;
+  background: var(--color-white);
+  color: var(--color-black);
+  margin: 26px 0px 26px 0px;
+}
+
+.about .text {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 21px;
+  font-weight: 300;
+  text-align: justify;
+}
+
 
 /* ============= first SECTION/ALL SIMILIAR STYLING ============= */
 section {
@@ -203,7 +221,9 @@ section {
 .fifth,
 footer {
   font-family: 'Poppins', sans-serif;
-  background: var(--clean-white-purple); 
+  background-image: radial-gradient(#0096c7 0.5px, transparent 0.5px);
+  background-size: 23px 23px;
+  background-color: #f7f7f7;
 }
 
 .first .first-content,
@@ -249,7 +269,9 @@ section .title::after {
 }
 
 .first .title::after {
-  background: var(--clean-white-purple);
+  background-image: radial-gradient(rgb(0, 150, 199) 0.5px, transparent 0.5px);
+  background-size: 23px 23px;
+  background-color: rgb(247, 247, 247);
   content: "Teste";
   white-space: nowrap;
 }
@@ -306,11 +328,9 @@ section .title::after {
   background: none;
 }
 
-.second,
-.fourth,
-.fifth {
+.second, .fifth {
   color: var(--color-white);
-  background: var(--color-black);
+  background: var(--background-gradient);
 }
 
 .second #particles-js {
@@ -327,7 +347,7 @@ section .title::after {
 }
 
 .second .title::after {
-  background: var(--color-black);
+  background: var(--color-white);
   content: "Teste";
   color: var(--color-purple-light);
   white-space: nowrap;
@@ -336,7 +356,7 @@ section .title::after {
 .second .serv-content .card {
   width: calc(33% - 20px);
   height: 350px;
-  background: var(--color-black-clean);
+  background: var(--color-white);
   text-align: center;
   border-radius: 30px;
   padding: 25px 25px;
@@ -365,18 +385,24 @@ section .title::after {
 .second .serv-content .card .text {
   font-size: 25px;
   font-weight: 600;
-  color: var(--color-clean-white);
+  color: var(--color-black);
   margin: 10px 0 7px 0;
 }
 
 .second .serv-content .card .box p {
   max-width: 100%;
-  color: var(--color-clean-white);
+  color: var(--color-black);
+  text-align: justify;
 }
 
+/* ============= DROP SECTION ============= */
 
-
-
+.drop {
+  padding-top: 5px;
+  max-width: 1100px;
+  display: flex;
+  margin: auto;
+}
 
 /* ============= fourth SECTION ============= */
 .fourth {
@@ -449,7 +475,9 @@ section .title::after {
 
 /* ============= PROJECT SECTION ============= */
 .third .title::after {
-  background: var(--clean-white-purple);
+  background-image: radial-gradient(rgb(0, 150, 199) 0.5px, transparent 0.5px);
+  background-size: 23px 23px;
+  background-color: rgb(247, 247, 247);
   content: "teste";
   white-space: nowrap;
 }

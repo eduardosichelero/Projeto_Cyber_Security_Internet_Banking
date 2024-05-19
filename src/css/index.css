@@ -272,7 +272,7 @@ section .title::after {
   background-image: radial-gradient(rgb(0, 150, 199) 0.5px, transparent 0.5px);
   background-size: 23px 23px;
   background-color: rgb(247, 247, 247);
-  content: "Teste";
+  content: "Segurança";
   white-space: nowrap;
 }
 
@@ -348,7 +348,7 @@ section .title::after {
 
 .second .title::after {
   background: var(--color-white);
-  content: "Teste";
+  content: "Bancos";
   color: var(--color-purple-light);
   white-space: nowrap;
 }

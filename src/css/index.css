@@ -395,6 +395,12 @@ section .title::after {
   text-align: justify;
 }
 
+.second .serv-content .card ul li {
+  text-align: initial;
+  font-weight: 200;
+  padding: 2px 0;
+}
+
 /* ============= DROP SECTION ============= */
 
 .drop {
@@ -563,135 +569,6 @@ section .title::after {
 
 
 /* ============= fifth SECTION ============= */
-.fifth .title::after {
-  content: "teste";
-  color: var(--color-purple-light);
-  background: var(--color-black);
-  white-space: nowrap;
-}
-
-.fifth .fifth-content .column {
-  width: calc(50% - 30px);
-}
-
-.fifth .fifth-content .text {
-  font-size: 26px;
-  font-weight: 600;
-  margin-bottom: 10px;
-  color: var(--color-purple-light);
-}
-
-.fifth .fifth-content .left p {
-  text-align: justify;
-}
-
-.fifth .fifth-content .left .icons {
-  margin: 10px 0;
-}
-
-.fifth .fifth-content .right {
-  margin-bottom: 210px;
-}
-
-.fifth .fifth-content .row {
-  display: flex;
-  height: 65px;
-  align-items: center;
- }
-
-.fifth .fifth-content .row .info {
-  margin-left: 25px;
-}
-
-.fifth .fifth-content .row i {
-  font-size: 20px;
-  color: var(--color-purple-light);
-}
-
-.fifth .fifth-content .info .head {
-  font-weight: 500;
-}
-
-.fifth .fifth-content .info .sub-title {
-  color: var(--color-clean-white);
-}
-
-.fifth .fifth-content .input-area input:focus,
-.fifth .fifth-content .input-area textarea:focus,
-.fifth .fifth-content .input-area input.active {
-  border: 2px solid var(--color-purple-light);
-}
-
-
-.fifth .right form .fields {
-  display: flex;
-}
-
-.fifth .right form .field,
-.fifth .right form .fields .field {
-  height: 45px;
-  width: 100%;
-  margin-bottom: 10px;
-}
-
-.fifth .right form .textarea {
-  height: 80px;
-  width: 100%;
-}
-
-.fifth .right form .textarea {
-  height: 80px;
-  width: 100%;
-}
-
-.fifth .right form .name {
-  margin-right: 10px;
-}
-
-.fifth .right form .email {
-  margin-left: 10px;
-}
-
-.fifth .right form .field input,
-.fifth .right form .textarea textarea {
-  height: 100%;
-  width: 100%;
-  border: 2px solid var(--clean-light-gray); 
-  border-radius: 10px;
-  outline: none;
-  padding: 0 15px;
-  font-size: 17px;
-  font-family: 'poppins', sans-serif;
-}
-
-.fifth .right form .textarea textarea {
-  padding-top: 10px;
-  resize: none;
-}
-
-.fifth .right form .button {
-  height: 47px;
-  width: 170px;
-  margin-top: 15px;
-}
-
-.fifth .right form .button button {
-  width: 100%;
-  height: 100%;
-  border: 2px solid var(--color-purple-light);
-  background: var(--color-purple-light);
-  color: var(--color-white);
-  font-size: 20px;
-  font-weight: 500;
-  border-radius: 30px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-
-.fifth .right form .button button:hover {
-  color: var(--color-white);
-  background: none;
-}
 
 
 /* ============= FOOTER ============= */

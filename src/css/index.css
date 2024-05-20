@@ -715,6 +715,8 @@ footer span a:hover {
 
 /* ============= SCROLL UP ============= */
 .scrollup {
+  width: 40px;
+  height: 40px;
   position: fixed;
   right: 1rem;
   bottom: -30%;
@@ -725,8 +727,6 @@ footer span a:hover {
   padding: 6px;
   border-radius: 100%;
   z-index: 9999;
-  transition: bottom .4s, transform .4s;
-  cursor: pointer;
 }
 
 .scrollup:hover {
@@ -738,6 +738,10 @@ footer span a:hover {
   bottom: 3rem;
 }
 
+.uil::before {
+    position: relative;
+    left: 4px;
+}
 
 /* ============= SCROLL BAR ============= */
 ::-webkit-scrollbar {

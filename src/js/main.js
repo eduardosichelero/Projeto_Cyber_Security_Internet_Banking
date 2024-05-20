@@ -68,6 +68,26 @@ var swiper = new Swiper(".mySwiper", {
 });
 
 
+$(document).ready(function(){
+  $('#myScrollspy').on('click', 'a', function (e) {
+      e.preventDefault()
+      $(this).tab('show')
+  })
+});
+$(document).ready(function() {
+  // Para a seção #drop1
+  $('#myScrollspy1').on('click', 'a', function(e) {
+      e.preventDefault();
+      $(this).tab('show');
+  });
+
+  // Para a seção #drop2
+  $('#myScrollspy2').on('click', 'a', function(e) {
+      e.preventDefault();
+      $(this).tab('show');
+  });
+});
+
 // SHOW SCROLL UP
 function scrollUp(){
   const scrollUp = document.getElementById('scroll-up');

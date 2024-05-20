@@ -1,436 +1,443 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" >
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description">
+    <link rel="icon" type="image/png" href="./src/images/favicon.png" />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="stylesheet" href="./src/css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./src/css/index.css">
+    <link rel="stylesheet" href="./src/css/responsive.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
-  <link rel="icon" type="image/png" href="./src/images/favicon.png"/>
-  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"/>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
-  <link rel="stylesheet" href="./src/css/swiper-bundle.min.css"/>
-  <link rel="stylesheet" href="./src/css/index.css">
-  <link rel="stylesheet" href="./src/css/responsive.css"/>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Usando a versão mais recente do Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
-  <!-- Usando a versão mais recente do Bootstrap -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Scripts do Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <title>trabalho</title>
+  </head>
+  <body>
+    <header class="header-content">
 
-  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-
-  <!-- Scripts do Bootstrap -->
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
-
-  <title>trabalho</title>
-</head>
-
-<body>
-  <header class="header-content">
-
-    <!--- MENU NAVBAR --->
-    <nav class="nav-bar">
-      <div class="max-width">
-        <div class="logo">
-          <a href="#">Segurança<span> Bancária.</span></a>
-        </div>
-
-        <ul class="menu">
-          <li><a href="#home" class="menu-btn">Home</a></li>
-          <li><a href="#about" class="menu-btn">Sobre</a></li>
-          <li><a href="#first" class="menu-btn">Proteção bancária</a></li>
-          <li><a href="#fourth" class="menu-btn">Proteção ao cliente</a></li>
-          <li><a href="#fifth" class="menu-btn">Créditos</a></li>
-        </ul>
-
-        <!-- icon menu responsive -->
-        <div class="menu-btn">
-          <i class="fa fa-bars"></i>
-        </div>
-      </div>
-    </nav>
-  </header>
-
-
-  <main class="main-content">
-
-    <!--- HOMEBANNER SECTION --->
-    <section class="home section" id="home" >
-      
-      <div class="max-width " >
+      <!--- MENU NAVBAR --->
+      <nav class="nav-bar">
         <div class="max-width">
-          <div class="home-content">
-            <div class="home-icon">
-              <img src="./src/images/home-card.jpg" alt="ícone imagem principal">
-            </div>
-            <div class="text-1">A segurança do banco online é</div>
-            <div class="text-2">A chave que </div>
-            <div class="text-3">Protege <span class="typing"></span></div>
+          <div class="logo">
+            <a href="#">Segurança<span> Bancária.</span></a>
           </div>
+          <ul class="menu">
+            <li><a href="#home" class="menu-btn">Home</a></li>
+            <li><a href="#about" class="menu-btn">Sobre</a></li>
+            <li><a href="#first" class="menu-btn">Proteção bancária</a></li>
+            <li><a href="#fourth" class="menu-btn">Proteção ao cliente</a></li>
+            <li><a href="#card" class="menu-btn">Recursos</a></li>
+            <li><a href="#fifth" class="menu-btn">Créditos</a></li>
+          </ul>
 
-
-        <div class="home-img">
-          <img src="https://www.4devs.com.br/4devs_gerador_imagem.php?acao=gerar_imagem&txt_largura=320&txt_altura=240&extensao=png&fundo_r=0.06274509803921569&fundo_g=0.996078431372549&fundo_b=0.9568627450980393&texto_r=0&texto_g=0&texto_b=0&texto=Gerador%20Imagem%20%234Devs&tamanho_fonte=10" alt="" srcset="">
-        </div>
-        </div>
-      </div>
-    </section>
-
-    <!--- ABOUT SECTION --->
-    <section class="about " id="about">
-      <div class="max-width" data-aos="fade-up">
-        <h2 class="title">Sobre</h2>
-        <div class="text">
-          <p>
-            Neste site apresentaremos instruções e dicas sobre segurança bancária. Nosso objetivo é orientar tanto os Bancos provedores de sites ou aplicativos quantos os usuários e clientes desses bancos para que eles tenham uma experiência mais segura e confiável.
-           </p>
-
-        </div>
-
-    </section>
-
-    <!--- BANKING SECTION --->
-    <section class="first section" id="first">
-      <div class="max-width" data-aos="fade-down">
-        <h2 class="title">Segurança fornecida pelos Bancos</h2>
-
-        <div class="first-content">
-          <div class="column left">
-            <img src="./src/images/bank-card.jpg" alt="">
-          </div>
-
-          <div class="column right">
-            <div class="text">
-              Segurança online é o melhor investimento financeiro
-            </div>
-
-              <p >
-                A segurança em um site bancário é mais do que uma simples medida de precaução; é uma necessidade absoluta para proteger os ativos e a confiança dos clientes. Em um mundo cada vez mais conectado, os bancos financeiros devem garantir que seus sites ofereçam um ambiente virtual seguro e confiável para as transações financeiras dos usuários. 
-                <br>
-                Isso inclui a implementação de medidas robustas de proteção, como criptografia avançada de dados para garantir a privacidade das informações do cliente e a autenticação multifatorial para impedir o acesso não autorizado às contas. Além disso, é essencial que os bancos monitorem constantemente seus sistemas em busca de atividades suspeitas e estejam prontos para agir rapidamente em caso de qualquer ameaça à segurança.
-                <br>
-                 Ao priorizar a segurança em seu site, os bancos não apenas protegem seus clientes contra fraudes e roubos cibernéticos, mas também fortalecem sua reputação como um parceiro confiável e responsável na gestão financeira.
-            </p>
+          <!-- icon menu responsive -->
+          <div class="menu-btn">
+            <i class="fa fa-bars"></i>
           </div>
         </div>
+      </nav>
+    </header>
+    <main class="main-content">
 
-      </div>
-    </section>
-    
-    <!--- BANKING CARD SECTION --->
-    <section class="second section" id="second" >
-      <div id="particles-js"></div>
-      <div class="max-width">
-        <div data-aos="fade-down">
-          <h2 class="title">O que os bancos devem prover:</h2>
-        </div>
-
-        <div class="serv-content" data-aos="zoom-in-up">
-          <div class="card">
-            <div class="box">
-              <i class="fa-solid fa-eye"></i>
-              <div class="text">Monitoramento</div>
-                <p>
-                  O monitoramento desempenha um papel essencial na segurança dos sistemas bancários online, envolvendo a vigilância constante de atividades suspeitas e a detecção precoce de possíveis ameaças à segurança.  
-                </p>
+      <!--- HOMEBANNER SECTION --->
+      <section class="home section" id="home">
+        <div class="max-width ">
+          <div class="max-width">
+            <div class="home-content">
+              <div class="home-icon">
+                <a href="https://drive.google.com/file/d/1XOb0Ija-Cd-xNrV2wDwYoXK6n2Lkvgd4/view?usp=sharing" target="_blank"><img src="./src/images/bank-int.jpeg" alt="ícone imagem principal"></a>
+              </div>
+              <div class="text-1">A segurança do banco online é</div>
+              <div class="text-2">A chave que </div>
+              <div class="text-3">Protege <span class="typing"></span></div>
             </div>
           </div>
+        </div>
+      </section>
 
-          <div class="card">
-            <div class="box">
-              <i class="fa-solid fa-shield-halved"></i>
-              <div class="text">Criptografia</div>
+      <!--- ABOUT SECTION --->
+      <section class="about " id="about">
+        <div class="max-width" data-aos="fade-up">
+          <h2 class="title">Sobre</h2>
+          <div class="text">
+            <p>Neste site, apresentaremos instruções e dicas sobre <strong>segurança bancária</strong>. Nosso objetivo é orientar tanto os <strong>bancos</strong> provedores de sites ou aplicativos quanto os <strong>usuários</strong> e <strong>clientes</strong> desses bancos, para que tenham uma experiência mais <strong>segura</strong> e <strong>confiável</strong>.</p>
+          </div>
+      </section>
+
+      <!--- BANKING SECTION --->
+      <section class="first section" id="first">
+        <div class="max-width" data-aos="fade-down">
+          <h2 class="title">Segurança fornecida pelos Bancos</h2>
+          <div class="first-content">
+            <div class="column left">
+              <img src="./src/images/bank-card.jpg" alt="">
+            </div>
+            <div class="column right">
+              <div class="text">
+                Segurança online é o melhor investimento financeiro
+              </div>
               <p>
-                Criptografia desempenha um papel vital na segurança das transações bancárias online, garantindo a confidencialidade e a integridade dos dados dos clientes, além de contribuir para a construção de confiança nas instituições financeiras.
+                A <strong>segurança em um site bancário</strong> é mais do que uma simples medida de precaução; é uma necessidade absoluta para proteger os ativos e a confiança dos clientes. Em um mundo cada vez mais conectado, os bancos financeiros devem garantir que seus sites ofereçam um ambiente virtual seguro e confiável para as transações financeiras dos usuários.
+                <br><br>
+                Isso inclui a implementação de medidas robustas de proteção, como <strong>criptografia avançada de dados</strong> para garantir a privacidade das informações do cliente e a <strong>autenticação multifatorial</strong> para impedir o acesso não autorizado às contas. Além disso, é essencial que os bancos monitorem constantemente seus sistemas em busca de atividades suspeitas e estejam prontos para agir rapidamente em caso de qualquer ameaça à segurança.
+                <br><br>
+                Ao priorizar a segurança em seu site, os bancos não apenas protegem seus clientes contra fraudes e roubos cibernéticos, mas também fortalecem sua reputação como um parceiro confiável e responsável na gestão financeira.
               </p>
             </div>
           </div>
+        </div>
+      </section>
 
-          <div class="card">
-            <div class="box">
-              <i class="fa-solid fa-address-card"></i>
-              <div class="text">Proteção de acesso</div>
+      <!--- BANKING CARD SECTION --->
+      <section class="second section" id="second">
+        <div id="particles-js"></div>
+        <div class="max-width">
+          <div data-aos="fade-down">
+            <h2 class="title">O que os bancos devem prover:</h2>
+          </div>
+          <div class="serv-content" data-aos="zoom-in-up">
+            <div class="card">
+              <div class="box">
+                <i class="fa-solid fa-eye"></i>
+                <div class="text">Monitoramento</div>
+                <p>
+                  O <strong>monitoramento</strong> desempenha um papel essencial na segurança dos sistemas bancários online, envolvendo a <strong>vigilância constante</strong> de atividades suspeitas e a <strong>detecção precoce</strong> de possíveis ameaças à segurança.
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="box">
+                <i class="fa-solid fa-shield-halved"></i>
+                <div class="text">Criptografia</div>
+                <p>
+                  <strong>Criptografia</strong> desempenha um papel vital na segurança das transações bancárias online, garantindo a <strong>confidencialidade</strong> e a <strong>integridade</strong> dos dados dos clientes, além de contribuir para a construção de confiança nas instituições financeiras.
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="box">
+                <i class="fa-solid fa-address-card"></i>
+                <div class="text">Proteção de acesso</div>
                 <p>
                   Medida essencial para garantir a segurança dos sistemas bancários online, pois se concentra em controlar quem tem permissão para acessar determinados recursos ou informações.
                 </p>
               </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!--- BANKING DROP SECTION --->
-    <section class="drop" id="drop">
-      <div class="container" data-aos="fade-up">
-        <h2 class="title">Medidas de proteção</h2>
-          <div class="row">
-              <div class="col-md-4">
-                  <ul class="nav nav-pills flex-column mb-3" id="myScrollspy">
-                      <li class="nav-item">
-                          <a class="nav-link active" aria-current="page" href="#item1">Atualizações regulares de segurança</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="#item2">Políticas de segurança claras</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="#item3">Resposta rápida a incidentes</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="#item4">Autenticação multifatorial (MFA)</a>
-                      </li>
-                  </ul>
-              </div>
-              <div class="col-md-8">
-                  <div class="tab-content">
-                      <div class="tab-pane fade show active" id="item1">
-                          <h4>Atualizações regulares de segurança</h4>
-                          <p>Manter o software do servidor e dos sistemas atualizados com as últimas correções de segurança para proteger contra vulnerabilidades conhecidas.</p>
-                      </div>
-                      <div class="tab-pane fade" id="item2">
-                          <h4>Políticas de segurança claras</h4>
-                          <p>Estabelecer políticas de segurança claras e comunicar essas políticas aos clientes, além de fornecer recursos para que eles compreendam as medidas de segurança disponíveis e sua responsabilidade na proteção de suas próprias informações.</p>
-                      </div>
-                      <div class="tab-pane fade" id="item3">
-                          <h4>Resposta rápida a incidentes</h4>
-                          <p>Ter planos de resposta a incidentes prontos para lidar com qualquer violação de segurança de forma rápida e eficaz, minimizando o impacto sobre os clientes.</p>
-                      </div>
-                      <div class="tab-pane fade" id="item4">
-                          <h4>Autenticação multifatorial (MFA)</h4>
-                          <p>Implementar métodos de autenticação multifatorial para confirmar a identidade do usuário durante o login ou transações sensíveis.</p>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </section>
-
-    <!--- USER SECTION SECTION --->
-    <section class="first section" id="fourth">
-      <div class="max-width" data-aos="fade-down">
-        <h2 class="title">Segurança para o usuário de Bancos Online</h2>
-
-        <div class="first-content">
-          
-
-          <div class="column right">
-            <div class="text">
-              Transações Online: Priorizando a Segurança
-            </div>
-
-            <p>Na era digital, as transações financeiras online são comuns, mas trazem desafios de segurança. Para proteger suas finanças, adote medidas preventivas como a autenticação de dois fatores (2FA), que adiciona uma camada extra de segurança. <br>
-              Certifique-se de acessar o site oficial do banco, verificando o prefixo "https://" e o ícone de cadeado. Use o aplicativo oficial do banco em seu smartphone. Monitore regularmente seu extrato bancário online para detectar atividades suspeitas e entre em contato com o banco se necessário. <br>
-              Evite compartilhar informações financeiras online e seja cauteloso ao fornecê-las por telefone. Priorize a segurança sobre a conveniência ao moldar sua experiência online. Essas práticas simples podem tornar suas finanças digitais mais seguras e tranquilas, exigindo atenção aos detalhes e compromisso com a proteção de suas informações pessoais.</p>
-              
-            
-          </div>
-
-          <div class="column left">
-            <img src="./src/images/user-card.jpg">
-          </div>
-        </div>
-
-        
-      </div>
-    </section>
-
-    <!-- USER CARD SECTION -->
-    <section class="second section" id="second" >
-      <div class="max-width">
-        <div data-aos="fade-down">
-          <h2 class="title">O que os usuários devem se atentar: </h2>
-        </div>
-
-        <div class="serv-content" data-aos="zoom-in-up">
-          <div class="card">
-            <div class="box">
-              <i class="fa-solid fa-user-gear"></i>
-              <div class="text">Conduta do Usuário</div>
-              <ul>
-                <li>Cuidado ao inserir dados pessoais em sites.</li>
-                <li>Desconfie de ofertas excessivamente promocionais.</li>
-                <li>Monitoramento constante de transações bancárias.</li>
-                <li>Contato imediato ao banco sobre atividades suspeitas.</li>
-            </ul>
             </div>
           </div>
+        </div>
+      </section>
 
-          <div class="card">
-            <div class="box">
-              <i class="fa-solid fa-lock"></i>
-              <div class="text">Senhas</div>
-              <ul>
-                <li>Crie senhas únicas e seguras para sua conta online.</li>
-                <li>Evite usar dados pessoais nas suas senhas.</li>
-                <li>Atualize suas senhas regularmente, preferencialmente a cada 6 meses.</li>
-                <li>Diferencie suas senhas entre diferentes contas online.</li>
-               </ul>
+      <!--- BANKING DROP SECTION --->
+      <section class="drop" id="drop">
+        <div class="container" data-aos="fade-up">
+          <h2 class="title">Medidas de proteção</h2>
+          <div class="row">
+            <div class="col-md-4">
+              <ul class="nav nav-pills flex-column mb-3" id="myScrollspy">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#item1">Atualizações regulares de segurança</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#item2">Políticas de segurança claras</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#item3">Resposta rápida a incidentes</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#item4">Autenticação multifatorial (MFA)</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-8">
+              <div class="tab-content">
+                <div class="tab-pane fade show active" id="item1">
+                  <h4>Atualizações regulares de segurança</h4>
+                  <p>Manter o software do servidor e dos sistemas atualizados com as últimas correções de segurança para proteger contra vulnerabilidades conhecidas.</p>
+                </div>
+                <div class="tab-pane fade" id="item2">
+                  <h4>Políticas de segurança claras</h4>
+                  <p>Estabelecer políticas de segurança claras e comunicar essas políticas aos clientes, além de fornecer recursos para que eles compreendam as medidas de segurança disponíveis e sua responsabilidade na proteção de suas próprias informações.</p>
+                </div>
+                <div class="tab-pane fade" id="item3">
+                  <h4>Resposta rápida a incidentes</h4>
+                  <p>Ter planos de resposta a incidentes prontos para lidar com qualquer violação de segurança de forma rápida e eficaz, minimizando o impacto sobre os clientes.</p>
+                </div>
+                <div class="tab-pane fade" id="item4">
+                  <h4>Autenticação multifatorial (MFA)</h4>
+                  <p>Implementar métodos de autenticação multifatorial para confirmar a identidade do usuário durante o login ou transações sensíveis.</p>
+                </div>
               </div>
-          </div>
-
-          <div class="card">
-            <div class="box">
-              <i class="fa-solid fa-user-secret"></i>
-              <div class="text">Defesa do Dispositivo</div>
-              <ul>
-                <li>Manter sistemas operacionais e antivírus atualizados.</li>
-                <li>Cuidado com links e anexos em emails.</li>
-                <li>Evitar redes Wi-Fi públicas para acesso online seguro.</li>
-               </ul>
-              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- USER DROP SECTION -->
-    <section class="drop" id="drop">
-      <div class="container" data-aos="fade-up" style="">
-        <h2 class="title">Medidas de proteção</h2>
-          <div class="row">
-              <div class="col-md-4">
-                  <ul class="nav nav-pills flex-column mb-3" id="myScrollspy2">
-                      <li class="nav-item">
-                          <a class="nav-link active" aria-current="page" href="#item5">Autenticação adicional</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="#item6">Banco online</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="#item7">Monitoramento e Prevenção de Fraude</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="#item8">Conscientização e Segurança</a>
-                      </li>
-                  </ul>
+      <!--- USER SECTION SECTION --->
+      <section class="first section" id="fourth">
+        <div class="max-width" data-aos="fade-down">
+          <h2 class="title">Segurança para o usuário de Bancos Online</h2>
+          <div class="first-content">
+            <div class="column right">
+              <div class="text">
+                Transações Online: Priorizando a Segurança
               </div>
-              <div class="col-md-8">
-                  <div class="tab-content">
-                      <div class="tab-pane fade show active" id="item5">
-                          <h4>Autenticação adicional</h4>
-                          <ul>
-                            <li>Utilize a autenticação de dois fatores (2FA) sempre que disponível. Isso adiciona uma camada extra de segurança à sua conta, exigindo que você insira um código adicional além de sua senha ao fazer login.</li>
-                            <li>Considere usar um token de segurança físico para autenticar suas transações online.</li>
-                          </ul>
-                      </div>
-                      <div class="tab-pane fade" id="item6">
-                          <h4>Banco online</h4>
-                          <ul>
-                            <li>Certifique-se de que você está acessando o site oficial do seu banco. Verifique se o endereço da web começa com "https://" e se há um ícone de cadeado na barra de endereço do seu navegador.</li>
-                            <li>Certifique-se de que está acessando o App correto do Banco.</li>
-                            <li>Evite acessar sua conta bancária em computadores públicos ou redes Wi-Fi não seguras.</li>
-                            <li>Leia atentamente os termos e condições de uso do banco online antes de usá-lo.</li>
-                          </ul>
-                      </div>
-                      <div class="tab-pane fade" id="item7">
-                        <h4>Monitoramento e Prevenção de Fraude</h4>
-                        <ul>
-                          <li>Verifique seu extrato bancário online regularmente para identificar qualquer atividade suspeita.</li>
-                          <li>Se você detectar alguma atividade suspeita em sua conta, entre em contato com seu banco imediatamente para relatar o problema.</li>
-                          <li>Tome medidas para proteger seu número de CPF, RG e outros documentos pessoais.</li>
-                          <li>Conheça os canais de atendimento do seu banco (telefone, email, chat) e saiba como entrar em contato caso precise de ajuda.</li>
-                        </ul>
-                      </div>
-                      <div class="tab-pane fade" id="item8">
-                        <h4>Conscientização e Segurança</h4>
-                        <ul>
-                          <li>Não compartilhe informações pessoais ou financeiras online, especialmente em redes sociais ou fóruns públicos.</li>
-                          <li>Seja cauteloso ao usar redes Wi-Fi públicas e evite fazer transações bancárias nesses locais.</li>
-                          <li>Seja cauteloso ao fornecer suas informações pessoais por telefone. Confirme o número de telefone do banco e evite fornecer informações sensíveis por meio de chamadas não solicitadas.</li>
-                          <li>Fique por dentro das atualizações de segurança do seu banco e siga as recomendações para manter sua conta segura.</li>
-                        </ul>
-                      </div>
-                  </div>
-              </div>
+              <p>
+                Na era digital, as <strong>transações financeiras online</strong> são comuns, mas trazem desafios de segurança. Para proteger suas finanças, adote medidas preventivas como a <strong>autenticação de dois fatores (2FA)</strong>, que adiciona uma camada extra de segurança.
+                <br><br>
+                Certifique-se de acessar o <strong>site oficial do banco</strong>, verificando o prefixo "<strong>https://</strong>" e o ícone de cadeado. Use o <strong>aplicativo oficial do banco</strong> em seu smartphone. Monitore regularmente seu <strong>extrato bancário online</strong> para detectar atividades suspeitas e entre em contato com o banco se necessário.
+                <br><br>
+                Evite compartilhar informações financeiras online e seja cauteloso ao fornecê-las por telefone. <strong>Priorize a segurança</strong> sobre a conveniência ao moldar sua experiência online. Essas práticas simples podem tornar suas finanças digitais mais seguras e tranquilas, exigindo atenção aos detalhes e compromisso com a proteção de suas informações pessoais.
+              </p>
+            </div>
+            <div class="column left">
+              <img src="./src/images/user-card.jpg">
+            </div>
           </div>
-      </div>
-  </section>
+        </div>
+      </section>
 
-  <section class="fifth section" id="fifth">
-    <div class="max-width">
-      <div class="fifth-content">
-        <div class="fifth-cont column left " data-aos="fade-down">
-          <div class="text">Obrigado por sua Visita!</div>
+      <!-- USER CARD SECTION -->
+      <section class="second section" id="second">
+        <div class="max-width">
+          <div data-aos="fade-down">
+            <h2 class="title">O que os usuários devem se atentar:</h2>
+          </div>
+          <div class="serv-content" data-aos="zoom-in-up">
+            <div class="card">
+              <div class="box">
+                <i class="fa-solid fa-user-gear"></i>
+                <div class="text">Conduta do Usuário</div>
+                <ul>
+                  <li>Cuidado ao inserir dados pessoais em sites.</li>
+                  <li>Desconfie de ofertas excessivamente promocionais.</li>
+                  <li>Monitoramento constante de transações bancárias.</li>
+                  <li>Contato imediato ao banco sobre atividades suspeitas.</li>
+                </ul>
+              </div>
+            </div>
+            <div class="card">
+              <div class="box">
+                <i class="fa-solid fa-lock"></i>
+                <div class="text">Senhas</div>
+                <ul>
+                  <li>Crie senhas únicas e seguras para sua conta online.</li>
+                  <li>Evite usar dados pessoais nas suas senhas.</li>
+                  <li>Atualize suas senhas regularmente, preferencialmente a cada 6 meses.</li>
+                  <li>Diferencie suas senhas entre diferentes contas online.</li>
+                </ul>
+              </div>
+            </div>
+            <div class="card">
+              <div class="box">
+                <i class="fa-solid fa-user-secret"></i>
+                <div class="text">Defesa do Dispositivo</div>
+                <ul>
+                  <li>Manter sistemas operacionais e antivírus atualizados.</li>
+                  <li>Cuidado com links e anexos em emails.</li>
+                  <li>Evitar redes Wi-Fi públicas para acesso online seguro.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-          <p>Esperamos que você tenha encontrado útil as informações sobre Internet Banking e segurança online. Lembre-se, a segurança é uma responsabilidade compartilhada entre bancos e clientes.</p>
+      <!-- USER DROP SECTION -->
+      <section class="drop" id="drop">
+        <div class="container" data-aos="fade-up" style="">
+          <h2 class="title">Medidas de proteção</h2>
+          <div class="row">
+            <div class="col-md-4">
+              <ul class="nav nav-pills flex-column mb-3" id="myScrollspy2">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#item5">Autenticação adicional</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#item6">Banco online</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#item7">Monitoramento e Prevenção de Fraude</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#item8">Conscientização e Segurança</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-8">
+              <div class="tab-content">
+                <div class="tab-pane fade show active" id="item5">
+                  <h4>Autenticação adicional</h4>
+                  <ul>
+                    <li>Utilize a autenticação de dois fatores (2FA) sempre que disponível. Isso adiciona uma camada extra de segurança à sua conta, exigindo que você insira um código adicional além de sua senha ao fazer login.</li>
+                    <li>Considere usar um token de segurança físico para autenticar suas transações online.</li>
+                  </ul>
+                </div>
+                <div class="tab-pane fade" id="item6">
+                  <h4>Banco online</h4>
+                  <ul>
+                    <li>Certifique-se de que você está acessando o site oficial do seu banco. Verifique se o endereço da web começa com "https://" e se há um ícone de cadeado na barra de endereço do seu navegador.</li>
+                    <li>Certifique-se de que está acessando o App correto do Banco.</li>
+                    <li>Evite acessar sua conta bancária em computadores públicos ou redes Wi-Fi não seguras.</li>
+                    <li>Leia atentamente os termos e condições de uso do banco online antes de usá-lo.</li>
+                  </ul>
+                </div>
+                <div class="tab-pane fade" id="item7">
+                  <h4>Monitoramento e Prevenção de Fraude</h4>
+                  <ul>
+                    <li>Verifique seu extrato bancário online regularmente para identificar qualquer atividade suspeita.</li>
+                    <li>Se você detectar alguma atividade suspeita em sua conta, entre em contato com seu banco imediatamente para relatar o problema.</li>
+                    <li>Tome medidas para proteger seu número de CPF, RG e outros documentos pessoais.</li>
+                    <li>Conheça os canais de atendimento do seu banco (telefone, email, chat) e saiba como entrar em contato caso precise de ajuda.</li>
+                  </ul>
+                </div>
+                <div class="tab-pane fade" id="item8">
+                  <h4>Conscientização e Segurança</h4>
+                  <ul>
+                    <li>Não compartilhe informações pessoais ou financeiras online, especialmente em redes sociais ou fóruns públicos.</li>
+                    <li>Seja cauteloso ao usar redes Wi-Fi públicas e evite fazer transações bancárias nesses locais.</li>
+                    <li>Seja cauteloso ao fornecer suas informações pessoais por telefone. Confirme o número de telefone do banco e evite fornecer informações sensíveis por meio de chamadas não solicitadas.</li>
+                    <li>Fique por dentro das atualizações de segurança do seu banco e siga as recomendações para manter sua conta segura.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-          <div class="icons">
+      <!-- CARD EXTERN SECTION -->
+      <section class="card-container" id="card">
+        <div class="max-width">
+          <div data-aos="fade-down">
+            <h2 class="title">Quer mais informações? Confira aqui quem também entende do assunto</h2>
+            <p class="text-center">Dicas importantes de como lidar com o digital!</p>
+          </div>
+          <div data-aos="fade-up">
             <div class="row">
-
-              <div class="info">
-                <div class="head" > <i class="fas fa-user"></i> Integrantes</div>
-                <ul>
-                  <li>Eduardo da Silva Sichelero - RA:1134933</li>
-                  <li>Gabriel Martinelli - RA:1135051</li>
-                  <li>Gabriel Onofre - RA:1135384</li>
-                  <li>Rafael Klein - RA:1134873</li>
-                </ul>
+              <div class="col-sm-6 mb-3 mb-2">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Banco Next</h5>
+                    <p class="card-text">Segurança digital: conheça dicas valiosas para proteger suas contas e seus dados</p>
+                    <a href="https://next.me/blog-do-next/seguranca-digital-contas-dados" class="btn btn-primary" target="_blank">Clique para ver mais</a>
+                  </div>
+                </div>
               </div>
-              <div class="info">
-                <div class="head" > <i class="fa-solid fa-link"></i> Referencias</div>
-                <ul>
-                  <li><a href="https://www.tecmundo.com.br/mercado/257954-brasil-pais-contas-bancos-digitais-mundo.htm#:~:text=Um%20exemplo%20disso%2C%20%C3%A9%20o,Brasil%20entre%202021%20e%202022.">Matéria Tecmundo</a></li>
-                  <li><a href="https://www.serasa.com.br/premium/blog/como-saber-se-um-banco-digital-e-seguro/">Matéria Serasa informa</a></li>
-                  <li><a href="https://www.bv.com.br/bv-inspira/orientacao-financeira/conta-digital-e-segura">Banco bv</a></li>
-                  <li><a href="https://blog.contaazul.com/banco-digital-seguro/">Blog Conta Azul</a></li>
-                  
-                </ul>
+              <div class="col-sm-6">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Banco inter</h5>
+                    <p class="card-text">6 dicas de segurança para cuidar do que é seu, funcionalidades que te ajudam a utilizar melhor o seu cartão e ter mais segurança. </p>
+                    <a href="https://blog.inter.co/aprenda-a-cuidar-do-seu-cartao-de-credito-e-debito/" class="btn btn-primary" target="_blank">Clique para ver mais</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-6 mb-3 mb-sm-0">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Banco do Brasil</h5>
+                    <p class="card-text">Segurança digital: cuidados com o digital e o autoatendimento; Leia o artigo para descobrir! </p>
+                    <a href="https://blog.bb.com.br/cuidados-na-sala-de-autoatendimento/" class="btn btn-primary" target="_blank">Clique para ver mais</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Serasa</h5>
+                    <p class="card-text"> Você sabe o que é conta digital e como ela funciona? Leia o artigo para descobrir! </p>
+                    <a href="https://www.serasa.com.br/credito/blog/saiba-o-que-e-conta-digital-e-como-ela-funciona/" class="btn btn-primary" target="_blank">Clique para ver mais</a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-          
         </div>
-        <div class="column right" data-aos="fade-up">
-
-          <div class="img-fifth">
-            <img src="src/images/mega-card.jpg" alt="" srcset="">
-          </div>
-          
-        </div>
-
-      </div>
-    </div>
-    <div class="footer-info">
+      </section>
       
-    </div>
+      <section class="fifth section" id="fifth">
+        <div class="max-width">
+          <div class="fifth-content">
+            <div class="fifth-cont column left " data-aos="fade-down">
+              <div class="text">Obrigado por sua Visita!</div>
+              <p>Esperamos que você tenha encontrado útil as informações sobre Internet Banking e segurança online. Lembre-se, a segurança é uma responsabilidade compartilhada entre bancos e clientes.</p>
+              <div class="icons">
+                <div class="row">
+                  <div class="info">
+                    <div class="head"> <i class="fas fa-user"></i> Integrantes</div>
+                    <ul>
+                      <li>Eduardo da Silva Sichelero - RA:1134933</li>
+                      <li>Gabriel Martinelli - RA:1135051</li>
+                      <li>Gabriel Onofre - RA:1135384</li>
+                      <li>Rafael Klein - RA:1134873</li>
+                    </ul>
+                  </div>
+                  <div class="info">
+                    <div class="head"> <i class="fa-solid fa-link"></i> Referencias</div>
+                    <ul>
+                      <li><a href="https://www.tecmundo.com.br/mercado/257954-brasil-pais-contas-bancos-digitais-mundo.htm#:~:text=Um%20exemplo%20disso%2C%20%C3%A9%20o,Brasil%20entre%202021%20e%202022.">Matéria Tecmundo</a></li>
+                      <li><a href="https://www.serasa.com.br/premium/blog/como-saber-se-um-banco-digital-e-seguro/">Matéria Serasa informa</a></li>
+                      <li><a href="https://www.bv.com.br/bv-inspira/orientacao-financeira/conta-digital-e-segura">Banco bv</a></li>
+                      <li><a href="https://blog.contaazul.com/banco-digital-seguro/">Blog Conta Azul</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column right" data-aos="fade-up">
+              <div class="img-fifth">
+                <img src="src/images/mega-card.jpg" alt="" srcset="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-info">
+        </div>
+      </section>
+    </main>
 
-  </section>
+    <!--- FOOTER --->
+    <footer>
+      <span><a href="#"></a><span class="far fa-copyright"></span><span> 2024 todos os direitos reservados</span>
+    </footer>
 
-  </main>
+    <!--- SCROLL UP --->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="uil uil-arrow-up"></i>
+    </a>
 
-  <!--- FOOTER --->
-  <footer> 
-    <span>Desenvolvido por <a href="#"></a> | <span class="far fa-copyright"></span><span> 2024 todos os direitos reservados</span>
-  </footer>
-  
-  <!--- SCROLL UP --->
-  <a href="#" class="scrollup" id="scroll-up">
-    <i class="uil uil-arrow-up"></i>
-  </a>
+    <!--- PARTICLES JS --->
+    <script src="./src/js/particles.js"></script>
+    <script src="./src/js/app-particles.js"></script>
 
+    <!--- SWIPER JS --->
+    <script src="./src/js/swiper-bundle.min.js"></script>
 
-  <!--- PARTICLES JS --->
-  <script src="./src/js/particles.js"></script>
-  <script src="./src/js/app-particles.js"></script>
+    <!--- MAIN JS --->
+    <script src="./src/js/main.js"></script>
 
-  <!--- SWIPER JS --->
-  <script src="./src/js/swiper-bundle.min.js"></script>
-
-  <!--- MAIN JS --->
-  <script src="./src/js/main.js"></script>
-
-  <!--- SCRIPT ANIMATION --->
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-  AOS.init({
-  offset: 400,
-  duration: 1800,
-  });
-  </script>
-
-</body>
+    <!--- SCRIPT ANIMATION --->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 400,
+        duration: 1800,
+      });
+    </script>
+  </body>
 </html>

@@ -27,7 +27,7 @@ html {
   --color-white: rgb(255, 255, 255);
   --color-black: rgb(24, 22, 22);
   --color-black-clean: rgb(33, 33, 33);
-  --background-gradient: linear-gradient(0deg, #474bff 0%, #03045e 100%);
+  --background-gradient: linear-gradient(0deg, #0077B6 0%, #03045E 100%);
   --invert-background-gradient: linear-gradient(0deg, #03045e 0%, #474bff 100%);
   --bol-background: radial-gradient(#0096c7 0.5px, transparent 0.5px),23px 23px,#f7f7f7;
 }
@@ -74,6 +74,18 @@ html {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 0;
+
+}
+
+dl, ol, ul {
+  margin-top: 0px;
+  margin-bottom:0px;
+}
+.nav-bar .logo {
+  position: relative;
+  top: -7px;
+
 }
 
 .nav-bar .logo a {
@@ -123,10 +135,12 @@ html {
 
 /* icon menu responsive */
 .menu-btn {
-  color: var(--color-white);
-  font-size: 23px;
+  color: var(--color-black);
+  font-size: 30px;
   cursor: pointer;
   display: none;
+  position: relative;
+  right: 46px;
 }
 
 
@@ -142,14 +156,15 @@ html {
 }
 
 .home-icon img {
-  top: 15rem;
-  height: 550px;
-  border-radius: 5%;
+  top: 10rem;
+  height: 650px;
+  width: 454px;
+  border-radius: 3%;
   position: absolute;
   object-fit: cover;
   border: 1px solid transparent;
   right: 30vh;
-  
+  cursor: pointer;
 }
 
 .home-icon img:hover {
@@ -183,6 +198,7 @@ box-shadow: 12.5px 11.5px 12px -6px #dddddd;
   font-size: 60px;
   font-weight: 600;
   margin: 6px 0;
+  margin-bottom: 50px;
 }
 
 .home .home-content .text-3 span {
@@ -565,6 +581,20 @@ section .title::after {
 .swiper-button-prev,
 .swiper-button-next {
   outline: none;
+}
+
+
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  background-image: radial-gradient(#0096c7 0.5px, transparent 0.5px);
+  background-size: 23px 23px;
+  background-color: #f7f7f7;
+}
+
+section .card-conteiner  .text {
+  color: red;
 }
 
 

@@ -348,7 +348,7 @@ section .title::after {
 
 .second .title::after {
   background: var(--color-white);
-  content: "Bancos";
+  content: "Informações";
   color: var(--color-purple-light);
   white-space: nowrap;
 }
@@ -569,6 +569,72 @@ section .title::after {
 
 
 /* ============= fifth SECTION ============= */
+.fifth .fifth-content .column {
+  width: calc(50% - 30px);
+}
+
+.fifth .fifth-content .text {
+  font-size: 45px;
+  width: 700px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: var(--color-purple-light);
+}
+
+.fifth .fifth-content .left p {
+  text-align: justify;
+}
+.fifth .fifth-content a {
+  color: white;
+  text-decoration: none;
+}
+.fifth .fifth-content a:hover{
+  color: var(--color-purple-light);
+
+}
+
+.fifth .fifth-content .left .icons {
+  margin: 10px 0;
+}
+
+.fifth .fifth-content .right {
+  margin-bottom: 100px;
+}
+
+.fifth .fifth-content .row {
+  display: flex;
+  height: 90px;
+  align-items: center;
+  margin-bottom: 130px;
+ }
+
+.fifth .fifth-content .row .info {
+  margin-left: 25px;
+}
+
+.fifth .fifth-content .row i {
+  font-size: 20px;
+  color: var(--color-purple-light);
+}
+
+.fifth .fifth-content .info .head {
+  font-weight: 500;
+  font-size: 20px;
+  color: var(--color-purple-light);
+}
+
+.fifth .fifth-content .info .sub-title {
+  color: var(--color-clean-white);
+}
+
+
+.img-fifth img{
+  width: 400px;
+  border-radius: 5%;
+  position: relative;
+  left: 27px;
+  top: 81px;
+}
 
 
 /* ============= FOOTER ============= */
@@ -588,6 +654,7 @@ footer span a {
 footer span a:hover {
   text-decoration: underline;
 }
+
 
 
 /* ============= SCROLL UP ============= */
